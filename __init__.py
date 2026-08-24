@@ -1,7 +1,6 @@
 import json
-import time
-
 import psutil
+import time
 from plugin.sdk.plugin import NekoPluginBase, Ok, lifecycle, neko_plugin, plugin_entry, timer_interval
 
 DEFAULTS = {
