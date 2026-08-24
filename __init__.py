@@ -3,7 +3,14 @@ import time
 
 import psutil
 
-from plugin.sdk.plugin import NekoPluginBase, Ok, lifecycle, neko_plugin, plugin_entry, timer_interval
+from plugin.sdk.plugin import (
+    lifecycle,
+    neko_plugin,
+    NekoPluginBase,
+    Ok,
+    plugin_entry,
+    timer_interval,
+)
 
 DEFAULTS = {
     "cpu": True,      # CPU 监控开关
