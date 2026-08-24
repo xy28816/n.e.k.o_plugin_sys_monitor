@@ -5,8 +5,8 @@ import psutil
 
 from plugin.sdk.plugin import (
     lifecycle,
-    neko_plugin,
     NekoPluginBase,
+    neko_plugin,
     Ok,
     plugin_entry,
     timer_interval,
