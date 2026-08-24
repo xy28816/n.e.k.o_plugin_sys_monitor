@@ -1,14 +1,13 @@
-# ruff: noqa
 import json
 import time
 
 import psutil
 
 from plugin.sdk.plugin import (
-    lifecycle,
     NekoPluginBase,
-    neko_plugin,
     Ok,
+    lifecycle,
+    neko_plugin,
     plugin_entry,
     timer_interval,
 )
