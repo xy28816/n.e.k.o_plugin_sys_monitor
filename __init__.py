@@ -2,7 +2,6 @@ import json
 import time
 
 import psutil
-
 from plugin.sdk.plugin import (
     NekoPluginBase,
     Ok,
