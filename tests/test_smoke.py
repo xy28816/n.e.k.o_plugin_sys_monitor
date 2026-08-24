@@ -6,5 +6,5 @@ def test_plugin_manifest_exists() -> None:
     manifest = root / "plugin.toml"
     assert manifest.is_file()
     text = manifest.read_text(encoding="utf-8")
-    assert 'id = "hello_world"' in text
-    assert 'entry = "plugin.plugins.hello_world:HelloWorldPlugin"' in text
+    assert 'id = "sys_monitor"' in text
+    assert 'entry = "plugin.plugins.sys_monitor:sys_monitorPlugin"' in text
