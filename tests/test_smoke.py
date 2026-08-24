@@ -7,4 +7,4 @@ def test_plugin_manifest_exists() -> None:
     assert manifest.is_file()
     text = manifest.read_text(encoding="utf-8")
     assert 'id = "sys_monitor"' in text
-    assert 'entry = "plugin.plugins.sys_monitor:sys_monitorPlugin"' in text
+    assert 'entry = "plugin.plugins.sys_monitor:SysMonitorPlugin"' in text
