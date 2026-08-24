@@ -1,4 +1,4 @@
-# ruff: noqa: I001
+# ruff: noqa
 import json
 import time
 
